@@ -1,6 +1,11 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
+:root {
+    --primary: #f32c55;
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
@@ -9,8 +14,4 @@ body {
 
 html {
     font-size: 62.5%;
-}
-
-:root {
-    --primary: #f32c55;
 }

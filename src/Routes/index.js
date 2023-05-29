@@ -7,8 +7,8 @@ import Search from '../pages/Search';
 //public routes
 
 const publicRoutes = [
-    { path: '/', component: Home },
     { path: '/following', component: Following },
+    { path: '/', component: Home },
     { path: '/upload', component: Upload },
     { path: '/search', component: Search },
     { path: '/profile', component: Profile, layout: HeaderOnly },
