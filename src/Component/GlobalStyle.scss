@@ -5,6 +5,9 @@
     --primary: #f32c55;
     --default-layout-header-height: 60px;
     --default-layout-width: 1150px;
+    --default-layout-Search-height: 46px;
+    --text-color: #333;
+    --black: black;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -14,4 +17,10 @@ body {
 
 html {
     font-size: 62.5%;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
 }
